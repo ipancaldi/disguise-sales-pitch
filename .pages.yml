@@ -12,6 +12,141 @@
   },
   "content": [
     {
+      "name": "home_section_overview",
+      "label": "Home",
+      "type": "file",
+      "path": "content/home_section_overview.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "headline_big_ideas",
+          "label": "Hero title — line 1",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "real_experiences",
+          "label": "Hero title — line 2",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "disguise_connects_software_hardware_and_expertise_to_tur",
+          "label": "Hero intro",
+          "type": "text",
+          "required": true
+        },
+        {
+          "name": "hero_image_also_used_for_sphere",
+          "label": "Hero image",
+          "type": "image",
+          "required": true,
+          "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
+        },
+        {
+          "name": "image_description_an_immersive_live_show_surrounds_the_aud",
+          "label": "Hero image alt text",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "from_possibility_experience_2026",
+          "label": "From possibility → experience / 2026",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "the_operating_system_for_visual_experiences",
+          "label": "The operating system for visual experiences",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "discover_the_offering",
+          "label": "Discover the offering",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "see_it_in_motion",
+          "label": "See it in motion",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "beyond_the_screen",
+          "label": "Beyond the screen.",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "into_the_experience",
+          "label": "Into the experience.",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "sphere_las_vegas",
+          "label": "SPHERE / LAS VEGAS",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "immersive_storytelling_on_a_new_scale",
+          "label": "Immersive storytelling on a new scale.",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "project_imagery_from_the_supplied_deck",
+          "label": "Project imagery from the supplied deck.",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "explore_the_platform",
+          "label": "Explore the platform",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "one_connected_platform",
+          "label": "One connected platform.",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "from_first_idea_to_showtime",
+          "label": "From first idea to showtime.",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "software",
+          "label": "Software",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "hardware",
+          "label": "Hardware",
+          "type": "string",
+          "required": true
+        },
+        {
+          "name": "services",
+          "label": "Services",
+          "type": "string",
+          "required": true
+        }
+      ],
+      "operations": {
+        "create": false,
+        "rename": false,
+        "delete": false
+      }
+    },
+    {
       "name": "site",
       "label": "Navigation, footer and dialogs",
       "type": "group",
@@ -705,147 +840,6 @@
       ]
     },
     {
-      "name": "home",
-      "label": "Home",
-      "type": "group",
-      "items": [
-        {
-          "name": "home_section_overview",
-          "label": "Section overview",
-          "type": "file",
-          "path": "content/home_section_overview.json",
-          "format": "json",
-          "fields": [
-            {
-              "name": "hero_image_also_used_for_sphere",
-              "label": "Hero image",
-              "type": "image",
-              "required": true
-            },
-            {
-              "name": "image_description_an_immersive_live_show_surrounds_the_aud",
-              "label": "Hero image alt text",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "from_possibility_experience_2026",
-              "label": "From possibility → experience / 2026",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "the_operating_system_for_visual_experiences",
-              "label": "The operating system for visual experiences",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "headline_big_ideas",
-              "label": "Hero title — line 1",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "real_experiences",
-              "label": "Hero title — line 2",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "disguise_connects_software_hardware_and_expertise_to_tur",
-              "label": "Hero intro",
-              "type": "text",
-              "required": true
-            },
-            {
-              "name": "discover_the_offering",
-              "label": "Discover the offering",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "see_it_in_motion",
-              "label": "See it in motion",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "beyond_the_screen",
-              "label": "Beyond the screen.",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "into_the_experience",
-              "label": "Into the experience.",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "sphere_las_vegas",
-              "label": "SPHERE / LAS VEGAS",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "immersive_storytelling_on_a_new_scale",
-              "label": "Immersive storytelling on a new scale.",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "project_imagery_from_the_supplied_deck",
-              "label": "Project imagery from the supplied deck.",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "explore_the_platform",
-              "label": "Explore the platform",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "one_connected_platform",
-              "label": "One connected platform.",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "from_first_idea_to_showtime",
-              "label": "From first idea to showtime.",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "software",
-              "label": "Software",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "hardware",
-              "label": "Hardware",
-              "type": "string",
-              "required": true
-            },
-            {
-              "name": "services",
-              "label": "Services",
-              "type": "string",
-              "required": true
-            }
-          ],
-          "operations": {
-            "create": false,
-            "rename": false,
-            "delete": false
-          }
-        }
-      ]
-    },
-    {
       "name": "about",
       "label": "Meet Disguise",
       "type": "group",
@@ -1020,7 +1014,8 @@
               "name": "archive_image",
               "label": "Archive image",
               "type": "image",
-              "required": true
+              "required": true,
+              "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
             },
             {
               "name": "chapter_label",
@@ -1082,7 +1077,8 @@
               "name": "preview_image",
               "label": "Preview image",
               "type": "image",
-              "required": true
+              "required": true,
+              "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
             },
             {
               "name": "chapter_label",
@@ -1144,7 +1140,8 @@
               "name": "image",
               "label": "Chapter image",
               "type": "image",
-              "required": true
+              "required": true,
+              "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
             },
             {
               "name": "chapter_label",
@@ -1213,7 +1210,8 @@
               "name": "header_photo",
               "label": "Header photo",
               "type": "image",
-              "required": true
+              "required": true,
+              "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
             },
             {
               "name": "photo_story_link",
@@ -1311,7 +1309,8 @@
               "name": "header_photo",
               "label": "Header photo",
               "type": "image",
-              "required": true
+              "required": true,
+              "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
             },
             {
               "name": "photo_story_link",
@@ -1409,7 +1408,8 @@
               "name": "header_photo",
               "label": "Header photo",
               "type": "image",
-              "required": true
+              "required": true,
+              "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
             },
             {
               "name": "photo_story_link",
@@ -1501,7 +1501,8 @@
               "name": "header_photo",
               "label": "Header photo",
               "type": "image",
-              "required": true
+              "required": true,
+              "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
             },
             {
               "name": "photo_story_link",
@@ -2294,7 +2295,8 @@
               "name": "product_image",
               "label": "Product image",
               "type": "image",
-              "required": true
+              "required": true,
+              "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
             },
             {
               "name": "product_name",
@@ -2356,7 +2358,8 @@
               "name": "product_image",
               "label": "Product image",
               "type": "image",
-              "required": true
+              "required": true,
+              "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
             },
             {
               "name": "product_name",
@@ -2418,7 +2421,8 @@
               "name": "product_image",
               "label": "Product image",
               "type": "image",
-              "required": true
+              "required": true,
+              "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
             },
             {
               "name": "product_name",
@@ -2480,25 +2484,29 @@
               "name": "on_air_image",
               "label": "On air image",
               "type": "image",
-              "required": true
+              "required": true,
+              "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
             },
             {
               "name": "studio_image",
               "label": "Studio image",
               "type": "image",
-              "required": true
+              "required": true,
+              "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
             },
             {
               "name": "stadium_image",
               "label": "Stadium image",
               "type": "image",
-              "required": true
+              "required": true,
+              "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
             },
             {
               "name": "venue_image",
               "label": "Venue image",
               "type": "image",
-              "required": true
+              "required": true,
+              "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
             },
             {
               "name": "product_name",
@@ -2590,25 +2598,29 @@
               "name": "live_show_image",
               "label": "Live show image",
               "type": "image",
-              "required": true
+              "required": true,
+              "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
             },
             {
               "name": "generative_environment_image",
               "label": "Generative environment image",
               "type": "image",
-              "required": true
+              "required": true,
+              "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
             },
             {
               "name": "real_time_graphics_image",
               "label": "Real-time graphics image",
               "type": "image",
-              "required": true
+              "required": true,
+              "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
             },
             {
               "name": "immersive_venue_image",
               "label": "Immersive venue image",
               "type": "image",
-              "required": true
+              "required": true,
+              "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
             },
             {
               "name": "product_name",
@@ -2724,25 +2736,29 @@
               "name": "concert_image",
               "label": "Concert image",
               "type": "image",
-              "required": true
+              "required": true,
+              "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
             },
             {
               "name": "festival_image",
               "label": "Festival image",
               "type": "image",
-              "required": true
+              "required": true,
+              "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
             },
             {
               "name": "theatre_image",
               "label": "Theatre image",
               "type": "image",
-              "required": true
+              "required": true,
+              "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
             },
             {
               "name": "immersive_space_image",
               "label": "Immersive space image",
               "type": "image",
-              "required": true
+              "required": true,
+              "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
             },
             {
               "name": "product_name",
@@ -2847,7 +2863,8 @@
               "name": "product_render",
               "label": "Product render",
               "type": "image",
-              "required": true
+              "required": true,
+              "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
             },
             {
               "name": "product_name",
@@ -2909,37 +2926,43 @@
               "name": "dp_card_image",
               "label": "DP card image",
               "type": "image",
-              "required": true
+              "required": true,
+              "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
             },
             {
               "name": "dvi_card_image",
               "label": "DVI card image",
               "type": "image",
-              "required": true
+              "required": true,
+              "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
             },
             {
               "name": "ip_card_image",
               "label": "IP card image",
               "type": "image",
-              "required": true
+              "required": true,
+              "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
             },
             {
               "name": "fabric_image",
               "label": "Fabric image",
               "type": "image",
-              "required": true
+              "required": true,
+              "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
             },
             {
               "name": "hdmi_card_image",
               "label": "HDMI card image",
               "type": "image",
-              "required": true
+              "required": true,
+              "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
             },
             {
               "name": "sdi_card_image",
               "label": "SDI card image",
               "type": "image",
-              "required": true
+              "required": true,
+              "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
             },
             {
               "name": "product_name",
@@ -3001,7 +3024,8 @@
               "name": "product_render",
               "label": "Product render",
               "type": "image",
-              "required": true
+              "required": true,
+              "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
             },
             {
               "name": "product_name",
@@ -3063,7 +3087,8 @@
               "name": "product_render",
               "label": "Product render",
               "type": "image",
-              "required": true
+              "required": true,
+              "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
             },
             {
               "name": "product_name",
@@ -3125,7 +3150,8 @@
               "name": "product_render",
               "label": "Product render",
               "type": "image",
-              "required": true
+              "required": true,
+              "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
             },
             {
               "name": "product_name",
@@ -3194,7 +3220,8 @@
               "name": "image",
               "label": "Service image",
               "type": "image",
-              "required": true
+              "required": true,
+              "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
             },
             {
               "name": "product_name",
@@ -3256,7 +3283,8 @@
               "name": "image",
               "label": "Service image",
               "type": "image",
-              "required": true
+              "required": true,
+              "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
             },
             {
               "name": "product_name",
@@ -3318,7 +3346,8 @@
               "name": "image",
               "label": "Service image",
               "type": "image",
-              "required": true
+              "required": true,
+              "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
             },
             {
               "name": "product_name",
@@ -6930,7 +6959,8 @@
               "name": "case_study_image",
               "label": "Case study image",
               "type": "image",
-              "required": true
+              "required": true,
+              "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
             },
             {
               "name": "name",
@@ -7010,7 +7040,8 @@
               "name": "case_study_image",
               "label": "Case study image",
               "type": "image",
-              "required": true
+              "required": true,
+              "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
             },
             {
               "name": "name",
@@ -7090,7 +7121,8 @@
               "name": "case_study_image",
               "label": "Case study image",
               "type": "image",
-              "required": true
+              "required": true,
+              "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
             },
             {
               "name": "name",
@@ -7170,7 +7202,8 @@
               "name": "image",
               "label": "Case study image",
               "type": "image",
-              "required": true
+              "required": true,
+              "description": "To replace this image, click the trash icon (Remove image), then click Upload to add a JPG, PNG or WebP from your computer. Click Select to reuse an image from the library. Check the preview, then click Save."
             },
             {
               "name": "name",
