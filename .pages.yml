@@ -34,6 +34,7 @@
           "name": "disguise_connects_software_hardware_and_expertise_to_tur",
           "label": "Hero intro",
           "type": "text",
+          "description": "Save your edits, then open Preview and publish in the sidebar to see how they look on the site.",
           "required": true
         },
         {
@@ -138,6 +139,27 @@
           "label": "Services",
           "type": "string",
           "required": true
+        }
+      ],
+      "operations": {
+        "create": false,
+        "rename": false,
+        "delete": false
+      }
+    },
+    {
+      "name": "preview_and_publish",
+      "label": "Preview and publish",
+      "type": "file",
+      "path": "editor/preview.json",
+      "format": "json",
+      "fields": [
+        {
+          "name": "guide",
+          "label": false,
+          "type": "rich-text",
+          "readonly": true,
+          "options": { "switcher": false }
         }
       ],
       "operations": {

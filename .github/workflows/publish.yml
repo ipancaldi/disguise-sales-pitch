@@ -1,14 +1,8 @@
-name: Publish editable site
+name: Update preview and live site
 
 on:
   push:
-    branches: [main]
-    paths:
-      - "content/**"
-      - "media/**"
-      - "site/**"
-      - ".pages.yml"
-      - ".github/workflows/publish.yml"
+    branches: [main, production]
   workflow_dispatch:
 
 permissions:
@@ -16,21 +10,60 @@ permissions:
 
 concurrency:
   group: github-pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   build:
+    if: github.ref_name == 'main' || github.ref_name == 'production'
     runs-on: ubuntu-latest
+    outputs:
+      preview-status: ${{ steps.preview.outcome }}
     steps:
-      - uses: actions/checkout@v6
+      - name: Check out approved content
+        uses: actions/checkout@v6
         with:
+          ref: production
+          path: approved
+          persist-credentials: false
+      - name: Check out the latest saved draft
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          path: draft
           persist-credentials: false
       - uses: actions/setup-python@v6
         with:
           python-version: "3.12"
-      - run: python -m pip install -r site/requirements.txt
-      - name: Build the standalone page
-        run: python site/build.py --output _site/index.html
+      - name: Build the live page from approved content
+        run: |
+          python -m venv "$RUNNER_TEMP/approved-site"
+          "$RUNNER_TEMP/approved-site/bin/pip" install -r approved/site/requirements.txt
+          "$RUNNER_TEMP/approved-site/bin/python" approved/site/build.py --output _site/index.html
+      - name: Build the full-site preview from saved drafts
+        id: preview
+        continue-on-error: true
+        run: |
+          python -m venv "$RUNNER_TEMP/draft-site"
+          "$RUNNER_TEMP/draft-site/bin/pip" install -r draft/site/requirements.txt
+          revision=$(git -C draft rev-parse HEAD)
+          "$RUNNER_TEMP/draft-site/bin/python" draft/site/build.py --preview-revision "$revision" --output _site/preview/index.html
+      - name: Show when the latest draft cannot be previewed
+        if: steps.preview.outcome == 'failure'
+        run: |
+          mkdir -p _site/preview
+          cat > _site/preview/index.html <<'EOF'
+          <!doctype html>
+          <html lang="en">
+          <meta charset="utf-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1">
+          <meta name="robots" content="noindex, nofollow">
+          <title>Draft preview unavailable | Disguise</title>
+          <style>body{font:1rem/1.5 system-ui,sans-serif;max-width:44rem;margin:4rem auto;padding:0 1.5rem}</style>
+          <h1>The latest draft preview could not be built.</h1>
+          <p>Check the latest run for the error, then save the corrected draft in Pages CMS.</p>
+          <p><a href="https://github.com/ipancaldi/disguise-sales-pitch/actions/workflows/publish.yml">View the build on GitHub</a></p>
+          </html>
+          EOF
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
@@ -48,3 +81,8 @@ jobs:
       - name: Publish to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+      - name: Report a failed draft preview
+        if: needs.build.outputs.preview-status == 'failure'
+        run: |
+          echo '::error::The draft preview failed. The approved site and preview error page were deployed.'
+          exit 1

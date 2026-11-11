@@ -155,12 +155,31 @@ def expand(text):
     return ASSET_TOKEN.sub(lambda m: asset(m[1]), text)
 
 
+def mark_preview(page, revision):
+    if not re.fullmatch(r'[0-9a-f]{40}', revision):
+        raise ValueError('The preview revision must be a full Git commit SHA.')
+    revision_url = f'https://github.com/ipancaldi/disguise-sales-pitch/commit/{revision}'
+    preview_meta = '<meta name="robots" content="noindex, nofollow">\n'
+    badge = (
+        '<aside aria-label="Preview status" style="position:fixed;right:12px;bottom:12px;'
+        'z-index:90;padding:8px 12px;border:1px solid #555;background:#171717;'
+        'color:#fff;font:13px/1.4 system-ui,sans-serif">'
+        f'Draft preview · <a href="{revision_url}" target="_blank" rel="noopener noreferrer" '
+        f'style="color:#fff;text-decoration:underline">{revision[:7]}</a></aside>\n'
+    )
+    page = page.replace('<title>', preview_meta + '<title>Draft preview | ', 1)
+    return page.replace('</body>', badge + '</body>', 1)
+
+
 if __name__ == '__main__':
     parser = ArgumentParser(description=__doc__)
     parser.add_argument('--output', type=Path, default=REPO / 'index.html')
+    parser.add_argument('--preview-revision', help='Git commit displayed on a draft preview')
     args = parser.parse_args()
     template = expand((ROOT / 'experience.source.html').read_text(encoding='utf-8'))
     out = COPY_TOKEN.sub(embed_copy, template)
+    if args.preview_revision:
+        out = mark_preview(out, args.preview_revision)
     if len(out.encode('utf-8')) > 90 * 1024 * 1024:
         raise ValueError('The standalone page exceeds 90 MB. Use smaller images.')
     args.output.parent.mkdir(parents=True, exist_ok=True)
