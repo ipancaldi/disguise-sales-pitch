@@ -1,0 +1,15 @@
+{
+  "dp_card_image": "/media/vfc-dp.webp",
+  "dvi_card_image": "/media/vfc-dvi.webp",
+  "ip_card_image": "/media/vfc-ip.webp",
+  "fabric_image": "/media/fabric.webp",
+  "hdmi_card_image": "/media/vfc-hdmi.webp",
+  "sdi_card_image": "/media/vfc-sdi.webp",
+  "product_name": "Connectivity",
+  "role": "VFC · Fabric",
+  "headline": "Connect the system to the canvas.",
+  "description": "Video Format Conversion cards and Disguise Fabric address output and network infrastructure needs within a wider system design.",
+  "benefit_1": "Match video connections to the installation",
+  "benefit_2": "Plan media-network infrastructure",
+  "benefit_3": "Validate the whole signal path with specialists"
+}

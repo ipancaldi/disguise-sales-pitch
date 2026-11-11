@@ -1,0 +1,11 @@
+{
+  "name": "Engines",
+  "items_1": "Unreal Engine",
+  "items_2": "TouchDesigner",
+  "items_3": "Notch",
+  "items_4": "Unity",
+  "items_5": "Rive",
+  "beta_1": "NVIDIA RTX",
+  "beta_2": "Chaos",
+  "description": "Choose a real-time engine. RenderStream connects its content and exposed controls to Designer."
+}

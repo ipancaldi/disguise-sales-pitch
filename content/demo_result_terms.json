@@ -1,0 +1,18 @@
+{
+  "video": "Video",
+  "graphics": "Graphics",
+  "data": "Data",
+  "alignment_error": "Alignment error",
+  "timing_mismatch": "Timing mismatch",
+  "intro": "Intro",
+  "live": "Live",
+  "finale": "Finale",
+  "outro": "Outro",
+  "content_surface": "Content → physical surface",
+  "graphics_layers": "Video + graphics + data",
+  "external_input": "External input → visual output",
+  "calibration": "Virtual content ↔ physical frame",
+  "scale": "One show → larger canvas",
+  "cue_timing": "Live timing → adaptive cues",
+  "backup": "Primary + backup → audience output"
+}

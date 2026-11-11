@@ -1,0 +1,11 @@
+{
+  "led_calibration_in_designer": "LED calibration in Designer",
+  "accessibility_label_looping_led_calibration_demonstration_": "Looping LED calibration demonstration from the supplied deck",
+  "explore_3_led_calibration_types": "Explore 3 LED calibration types",
+  "accessibility_label_calibration_types": "Calibration types",
+  "reintroduce_the_error": "Reintroduce the error",
+  "align_virtual_to_physical": "Align virtual to physical",
+  "reintroduce_timing_mismatch": "Reintroduce timing mismatch",
+  "compensate_timing": "Compensate timing",
+  "illustrates_timing_compensation_the_physical_pipeline_st": "Illustrates timing compensation; the physical pipeline still has latency."
+}

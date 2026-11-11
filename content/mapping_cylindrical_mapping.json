@@ -1,0 +1,9 @@
+{
+  "name": "Cylindrical mapping",
+  "label": "Cylindrical",
+  "short_label": "Wrap a column",
+  "description": "Wraps content around a cylinder, rather than treating its curved surface as a flat rectangle.",
+  "use_case": "A cylindrical centrepiece or wraparound column.",
+  "outputs": "Projection + LED",
+  "result": "Content wraps around the circumference. Drag the scene to see it."
+}

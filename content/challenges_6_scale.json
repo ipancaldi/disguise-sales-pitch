@@ -1,0 +1,12 @@
+{
+  "headline": "Scale to any size of surface",
+  "intro_headline": "Grow the system with the visual ambition.",
+  "problem": "Bigger canvases need more output and processing capacity.",
+  "how_disguise_helps": "Add media servers and RenderStream render nodes as the project grows.",
+  "products_1": "VX range",
+  "products_2": "GX range",
+  "products_3": "RX range",
+  "products_4": "RenderStream",
+  "demo_instructions": "Add zones to grow the canvas.",
+  "result": "More canvas zones and illustrative processing nodes appear together. The diagram explains architecture; it does not imply one server is required per screen."
+}

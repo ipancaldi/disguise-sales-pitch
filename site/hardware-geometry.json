@@ -1,0 +1,128 @@
+{
+  "gx-front": {
+    "file": "assets/hardware-figma/gx-front.png",
+    "width": 2880,
+    "height": 882,
+    "bounds": [
+      750,
+      189,
+      2116,
+      691
+    ]
+  },
+  "vfc-dp": {
+    "file": "assets/hardware-figma/vfc-dp.png",
+    "width": 2865,
+    "height": 4096,
+    "bounds": [
+      982,
+      514,
+      1923,
+      3448
+    ]
+  },
+  "vfc-dvi": {
+    "file": "assets/hardware-figma/vfc-dvi.png",
+    "width": 2865,
+    "height": 4096,
+    "bounds": [
+      965,
+      514,
+      1923,
+      3448
+    ]
+  },
+  "vx-front": {
+    "file": "assets/hardware-figma/vx-front.png",
+    "width": 1964,
+    "height": 778,
+    "bounds": [
+      43,
+      43,
+      1915,
+      712
+    ]
+  },
+  "vfc-ip": {
+    "file": "assets/hardware-figma/vfc-ip.png",
+    "width": 2000,
+    "height": 3000,
+    "bounds": [
+      668,
+      417,
+      1352,
+      2631
+    ]
+  },
+  "ex-display-overlay": {
+    "file": "assets/hardware-figma/ex-display-overlay.png",
+    "width": 228,
+    "height": 186,
+    "bounds": [
+      0,
+      0,
+      228,
+      186
+    ]
+  },
+  "ex-front": {
+    "file": "assets/hardware-figma/ex-front.png",
+    "width": 3840,
+    "height": 2160,
+    "bounds": [
+      88,
+      713,
+      3734,
+      1380
+    ]
+  },
+  "fabric": {
+    "file": "assets/hardware-figma/fabric.png",
+    "width": 1120,
+    "height": 368,
+    "bounds": [
+      1,
+      30,
+      1105,
+      348
+    ]
+  },
+  "vfc-hdmi": {
+    "file": "assets/hardware-figma/vfc-hdmi.png",
+    "width": 2865,
+    "height": 4096,
+    "bounds": [
+      982,
+      492,
+      1923,
+      3427
+    ]
+  },
+  "rx-front": {
+    "file": "assets/hardware-figma/rx-front.png",
+    "width": 1184,
+    "height": 666,
+    "bounds": [
+      26,
+      219,
+      1152,
+      426
+    ]
+  },
+  "vfc-sdi": {
+    "file": "assets/hardware-figma/vfc-sdi.png",
+    "width": 2865,
+    "height": 4096,
+    "bounds": [
+      965,
+      514,
+      1923,
+      3448
+    ]
+  },
+  "vx-mark": {
+    "file": "assets/hardware-figma/vx-mark.svg",
+    "width": 41.7777,
+    "height": 66.8443
+  }
+}

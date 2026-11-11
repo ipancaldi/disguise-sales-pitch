@@ -1,0 +1,6 @@
+{
+  "name": "NDI",
+  "short_label": "Video input",
+  "description": "Bring an NDI video source into Designer.",
+  "items_1": "NDI input"
+}

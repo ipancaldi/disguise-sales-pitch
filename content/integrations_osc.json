@@ -1,0 +1,7 @@
+{
+  "name": "OSC",
+  "short_label": "Input + output",
+  "description": "Exchange OSC messages between Designer and other applications or devices.",
+  "items_1": "OSC input",
+  "items_2": "OSC output"
+}

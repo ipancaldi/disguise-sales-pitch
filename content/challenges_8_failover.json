@@ -1,0 +1,10 @@
+{
+  "headline": "Deal with failures",
+  "intro_headline": "Plan for the moment a machine goes offline.",
+  "problem": "A server failure can interrupt the audience’s experience.",
+  "how_disguise_helps": "Prepare an understudy to take over the output if a machine fails.",
+  "products_1": "Media servers",
+  "products_2": "Technical services",
+  "demo_instructions": "Take the primary offline. Enable the backup.",
+  "result": "Try the failure before enabling a backup, then enable the understudy to restore the illustrative output. This does not predict real switching time."
+}

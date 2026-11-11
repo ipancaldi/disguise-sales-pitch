@@ -1,0 +1,20 @@
+{
+  "accessibility_label_renderstream_compatibility": "RenderStream compatibility",
+  "renderstream_compatibility": "RenderStream compatibility",
+  "accessibility_label_explore_plugin_categories": "Explore plugin categories",
+  "beta_in_the_deck": "Beta in the deck",
+  "accessibility_label_designer_integrations": "Designer integrations",
+  "explore_9_integrations": "Explore 9 integrations",
+  "accessibility_label_select_a_designer_integration": "Select a Designer integration",
+  "accessibility_label_designer_plugin_framework": "Designer Plugin Framework",
+  "beyond_the_built_in_connections": "Beyond the built-in connections",
+  "extend_designer_with_the_plugin_framework": "Extend Designer with the Plugin Framework.",
+  "who_can_build_them": "Who can build them",
+  "disguise": "Disguise",
+  "third_party_vendors": "Third-party vendors",
+  "freelancers": "Freelancers",
+  "plugin_framework": "Plugin Framework",
+  "designer": "Designer",
+  "what_they_extend": "What they extend",
+  "accessibility_label_explore_plugin_uses": "Explore plugin uses"
+}

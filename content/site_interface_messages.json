@@ -1,0 +1,8 @@
+{
+  "content_video_files_and_third_party_real_time_engines_fe": "Content / video files and third-party real-time engines feed the system.",
+  "orchestration_designer_maps_sequences_and_controls_ren": "Orchestration / Designer maps, sequences and controls. RenderStream connects engine content.",
+  "hardware_playback_compositing_and_rendering_roles_scale": "Hardware / playback, compositing and rendering roles scale to the project.",
+  "output_content_reaches_the_physical_led_or_projection_ca": "Output / content reaches the physical LED or projection canvas.",
+  "01_each_surface_has_a_location_shape_and_pixel_map_des": "01 / Each surface has a location, shape and pixel map. Designer connects content to that canvas.",
+  "02_media_servers_output_the_canvas_an_understudy_is_con": "02 / Media servers output the canvas. An understudy is configured as a backup."
+}

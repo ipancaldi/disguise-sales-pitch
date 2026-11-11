@@ -1,0 +1,8 @@
+{
+  "name": "Python & HTTP APIs",
+  "short_label": "Custom applications",
+  "description": "Connect external applications and custom workflows through Designer’s Python and HTTP APIs.",
+  "items_1": "Python API",
+  "items_2": "HTTP API",
+  "link_label": "Explore the APIs"
+}

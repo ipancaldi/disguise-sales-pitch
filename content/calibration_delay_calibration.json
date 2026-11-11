@@ -1,0 +1,6 @@
+{
+  "name": "Delay calibration",
+  "short_label": "Content → LED → camera",
+  "description": "Measures the time from generating an image to displaying it on the LED and receiving it in the camera.",
+  "benefit": "Compensate for the display-and-camera pipeline’s latency."
+}

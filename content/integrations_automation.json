@@ -1,0 +1,8 @@
+{
+  "name": "Automation",
+  "short_label": "System drivers",
+  "description": "Connect stage-automation systems through the drivers listed in the deck.",
+  "items_1": "Kinesys",
+  "items_2": "PSN",
+  "items_3": "Tait Navigator"
+}

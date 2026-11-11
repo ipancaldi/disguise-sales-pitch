@@ -1,0 +1,18 @@
+{
+  "on_air_image": "/media/porta-onair.jpg",
+  "studio_image": "/media/porta-studios.jpg",
+  "stadium_image": "/media/porta-stadiums.jpg",
+  "venue_image": "/media/porta-venues.jpg",
+  "product_name": "Porta",
+  "role": "Operate graphics",
+  "headline": "Complex graphics. Simpler control.",
+  "description": "A browser-based control layer for templated real-time graphics from Unreal Engine and Disguise, used in broadcast, stadium and venue workflows.",
+  "benefit_1": "Create reusable graphics templates and presets",
+  "benefit_2": "Organise content into pages and playlists",
+  "benefit_3": "Give operators a focused control interface",
+  "label": "Where Porta is used",
+  "gallery_caption_1": "On Air Graphics",
+  "gallery_caption_2": "Studios",
+  "gallery_caption_3": "Stadiums",
+  "gallery_caption_4": "Venues"
+}

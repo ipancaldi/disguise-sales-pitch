@@ -1,0 +1,22 @@
+{
+  "live_show_image": "/media/renderstream-video.jpg",
+  "generative_environment_image": "/media/renderstream-generative.jpg",
+  "real_time_graphics_image": "/media/renderstream-realtime.jpg",
+  "immersive_venue_image": "/media/renderstream-application.jpg",
+  "product_name": "RenderStream",
+  "role": "Connect real-time engines",
+  "headline": "Bring the engine into the experience.",
+  "description": "Connect third-party real-time content engines to Designer, with parameters that can be controlled as part of the production workflow.",
+  "benefit_1": "Connect engines such as Unreal Engine and Notch",
+  "benefit_2": "Control exposed parameters from Designer",
+  "benefit_3": "Distribute real-time workloads across render nodes",
+  "label": "A mixed-content workflow",
+  "gallery_caption_1": "Live shows",
+  "gallery_description_1": "Video layers in Designer",
+  "gallery_caption_2": "Generative environments",
+  "gallery_description_2": "Notch layers or RenderStream",
+  "gallery_caption_3": "Real-time graphics",
+  "gallery_description_3": "Engine content via RenderStream",
+  "gallery_caption_4": "Immersive venues",
+  "gallery_description_4": "Content layered together in real time"
+}

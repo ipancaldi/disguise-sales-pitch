@@ -1,0 +1,6 @@
+{
+  "name": "Spatial calibration",
+  "short_label": "Virtual world ↔ physical world",
+  "description": "Adjusts the virtual world’s position and rotation to match the physical scene as seen through the camera sensor and lens.",
+  "benefit": "Make virtual and physical objects line up in the camera view."
+}

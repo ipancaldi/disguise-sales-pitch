@@ -1,0 +1,16 @@
+<svg width="365" height="365" viewBox="0 0 365 365" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<use xlink:href="#stroke0_14985_6827" fill="url(#paint0_linear_14985_6827)"/>
+<mask id="stroke1_14985_6827" maskUnits="userSpaceOnUse" x="0" y="0" width="365" height="365" fill="black">
+<rect fill="white" width="365" height="365"/>
+<use xlink:href="#stroke0_14985_6827"/>
+</mask>
+<path d="M217.406 43H321.805V147.402H356.805V217.402H321.805V321.805H217.406V356.805H147.406V321.805H43V217.402H8V147.402H43V43H147.406V8H217.406V43Z" stroke-width="16" stroke="#667085" mask="url(#stroke1_14985_6827)"/>
+<path d="M161.322 117.778V247.026L141.936 259.947V104.857L161.322 117.778ZM200.111 143.63V221.175L180.725 234.096V130.709L200.111 143.63ZM238.869 169.481V195.323L219.482 208.254V156.551L238.869 169.481Z" fill="#667085"/>
+<defs>
+<linearGradient id="paint0_linear_14985_6827" x1="7.99457" y1="356.803" x2="356.8" y2="7.99575" gradientUnits="userSpaceOnUse">
+<stop stop-color="#1D2939"/>
+<stop offset="1" stop-color="#475467"/>
+</linearGradient>
+<path id="stroke0_14985_6827" d="M217.406 43H321.805V147.402H356.805V217.402H321.805V321.805H217.406V356.805H147.406V321.805H43V217.402H8V147.402H43V43H147.406V8H217.406V43Z"/>
+</defs>
+</svg>

@@ -1,0 +1,9 @@
+{
+  "name": "Skinned mesh",
+  "label": "Skinned mesh",
+  "short_label": "Follow a changing shape",
+  "description": "Maps video onto a deforming 3D surface, so the visual follows a shape that bends or billows.",
+  "use_case": "Projection onto a billowing flag or flexible scenic piece.",
+  "outputs": "Usually projection",
+  "result": "The image follows the folds of the deforming surface."
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Mesh mapping",
+  "label": "Mesh",
+  "short_label": "Fit a complex surface",
+  "description": "Fits 3D content to the full extent of a curved or moving surface, automatically adjusting the mapped view.",
+  "use_case": "Complex projection surfaces and curved virtual-production sets.",
+  "outputs": "Projection + LED",
+  "result": "Change the surface width: the mapped view adjusts to cover its full extent."
+}

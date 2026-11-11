@@ -1,0 +1,8 @@
+{
+  "name": "OpenVR",
+  "short_label": "Headset previews",
+  "description": "Preview the experience in a VR headset using the OpenVR integration shown in the deck.",
+  "items_1": "Oculus",
+  "items_2": "Vive",
+  "items_3": "HoloLens"
+}

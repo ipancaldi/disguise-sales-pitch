@@ -1,0 +1,10 @@
+{
+  "headline": "Combine content of different types in realtime",
+  "intro_headline": "Mix the sources into one live result.",
+  "problem": "Video, generative graphics and live data need to work together.",
+  "how_disguise_helps": "Mix them in Designer. Connect real-time engines through RenderStream.",
+  "products_1": "Designer",
+  "products_2": "RenderStream",
+  "demo_instructions": "Mix video, graphics and live data.",
+  "result": "The selected layers are composited on the canvas below. These are illustrative graphics, not a recording of Designer."
+}

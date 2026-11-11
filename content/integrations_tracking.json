@@ -1,0 +1,10 @@
+{
+  "name": "Tracking",
+  "short_label": "Tracked movement",
+  "description": "Bring tracking information into the visual workflow using FreeD and the tracking systems listed in the deck.",
+  "items_1": "FreeD",
+  "items_2": "Blacktrax",
+  "items_3": "Ncam",
+  "items_4": "Mo-Sys",
+  "items_5": "Stype"
+}

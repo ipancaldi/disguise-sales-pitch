@@ -1,0 +1,9 @@
+{
+  "name": "Direct mapping",
+  "label": "Direct",
+  "short_label": "Fit a screen",
+  "description": "Fits content directly to a screen’s size and resolution. The straightforward choice for a single canvas.",
+  "use_case": "A flat LED wall or projection screen.",
+  "outputs": "Projection + LED",
+  "result": "The complete image fits the screen."
+}

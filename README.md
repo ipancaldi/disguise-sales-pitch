@@ -1,9 +1,18 @@
-# Disguise interactive introduction
+# Disguise sales experience
 
-[Open the live experience](https://ipancaldi.github.io/disguise-sales-pitch/)
+[Live site](https://ipancaldi.github.io/disguise-sales-pitch/) · [Pages CMS editor](https://app.pagescms.org/)
 
-An interactive guide to Disguise: company story, four industry verticals, global presence, eight production challenges, software, hardware and case studies.
+## Update copy and imagery
 
-Open `index.html` directly in a modern browser, or use the GitHub Pages website. The single HTML file includes its imagery, 3D engine, calibration loop and project reel. Optional Vimeo films and external product links require internet access.
+1. Open Pages CMS and choose **ipancaldi / disguise-sales-pitch**, branch **main**.
+2. Choose a section. The four verticals are under **Our verticals**; the hero title, intro and photo are under **Home**.
+3. Edit the labelled text fields. Use an image field to upload or choose a JPG, PNG or WebP, then update the image description and any photo credit.
+4. Select **Save**. GitHub rebuilds and publishes the page. Refresh the live site once the [publishing workflow](https://github.com/ipancaldi/disguise-sales-pitch/actions/workflows/publish.yml) is green.
 
-Brand assets and project imagery remain the property of their respective owners. This repository contains the published experience only.
+The first time, the repo owner installs the [Pages CMS GitHub App](https://pagescms.org/docs/quick-start/) for this repository only. They can then [invite marketing collaborators by email](https://pagescms.org/docs/configuration/collaborators/). Saved edits in this public repository are intended for publication.
+
+Use landscape photos for photo headers and transparent PNG or WebP for isolated hardware. The templates retain the image frames, responsive layout, original brand pictograms, map and interactive 3D logic. Text can wrap as it grows, so keep headlines close to the current length.
+
+## Local preview
+
+With Python 3.12 and the dependencies in `site/requirements.txt`, run `python site/build.py` and open the generated `index.html`. Copy and image choices are stored in `content/`, uploaded imagery in `media/`, and protected templates in `site/`. The published HTML embeds its local assets and works offline; external links and hosted video remain online. GitHub retains the history of content changes for rollback.

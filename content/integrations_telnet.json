@@ -1,0 +1,7 @@
+{
+  "name": "Telnet",
+  "short_label": "Timeline triggers",
+  "description": "Let third-party applications and control software trigger the Disguise timeline.",
+  "items_1": "AMX",
+  "items_2": "Crestron"
+}

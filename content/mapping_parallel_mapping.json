@@ -1,0 +1,9 @@
+{
+  "name": "Parallel mapping",
+  "label": "Parallel",
+  "short_label": "Share a spatial canvas",
+  "description": "Projects one image across several surfaces in 3D space. Tracked moving screens sample the correct part of that canvas.",
+  "use_case": "Moving LED panels that reveal one larger image.",
+  "outputs": "Projection + LED",
+  "result": "Move the screens: they reveal different parts of the same fixed canvas."
+}

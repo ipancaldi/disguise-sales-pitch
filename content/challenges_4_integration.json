@@ -1,0 +1,10 @@
+{
+  "headline": "Integrate with diverse range of devices and protocols",
+  "intro_headline": "Make the surrounding systems work together.",
+  "problem": "Lighting, tracking and control systems need to talk to the visuals.",
+  "how_disguise_helps": "Connect devices and data through Designer’s APIs, plugins and protocols.",
+  "products_1": "Designer APIs & plugins",
+  "products_2": "Porta",
+  "demo_instructions": "Explore a connection. Try a control input.",
+  "result": "Choose OSC to advance a cue, DMX to change the simulated light level, or HTTP to update a data graphic. No external device is connected."
+}

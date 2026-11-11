@@ -1,0 +1,9 @@
+{
+  "name": "Feed mapping",
+  "label": "Feed",
+  "short_label": "Assign image sections",
+  "description": "Choose which rectangle of the source image goes to each surface. Crop, scale or rearrange the pieces.",
+  "use_case": "Separate screens with different sizes or pixel densities.",
+  "outputs": "Projection + LED",
+  "result": "Each screen keeps its assigned image section as you move it."
+}

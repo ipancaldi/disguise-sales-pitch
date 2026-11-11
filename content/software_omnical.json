@@ -1,0 +1,10 @@
+{
+  "product_image": "/media/omnical-application.jpg",
+  "product_name": "OmniCal",
+  "role": "Calibrate projection",
+  "headline": "Align the virtual with the physical.",
+  "description": "Camera-based projector calibration that reconstructs the real projection surface in 3D to help align content accurately.",
+  "benefit_1": "Capture the physical projection surface",
+  "benefit_2": "Calibrate projectors against the reconstructed scene",
+  "benefit_3": "Reduce manual alignment work on complex surfaces"
+}

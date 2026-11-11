@@ -1,0 +1,10 @@
+{
+  "headline": "Handle inconsistencies between the physical and virtual",
+  "intro_headline": "Make the model match the real installation.",
+  "problem": "Camera timing, tracking data and the physical installation must agree.",
+  "how_disguise_helps": "Calibrate projection with OmniCal, or LED and camera workflows in Designer.",
+  "products_1": "OmniCal",
+  "products_2": "Designer",
+  "demo_instructions": "Move the content, then align it.",
+  "result": "The grey frame is the physical surface. The coloured content starts offset from it. This simplified example demonstrates alignment, not an OmniCal measurement."
+}

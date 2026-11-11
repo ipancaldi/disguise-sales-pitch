@@ -1,0 +1,79 @@
+[
+  {
+    "name": "@@JDATA:global_city_labels.london_hq_name@@",
+    "region": "emea",
+    "country": "@@JDATA:global_city_labels.jdata_global_city_labels_london_hq_name_country@@",
+    "x": 46.19,
+    "y": 33.65
+  },
+  {
+    "name": "@@JDATA:global_city_labels.los_angeles_name@@",
+    "region": "americas",
+    "country": "@@JDATA:global_city_labels.jdata_global_city_labels_los_angeles_name_country@@",
+    "x": 16.73,
+    "y": 43.3
+  },
+  {
+    "name": "@@JDATA:global_city_labels.atlanta_name@@",
+    "region": "americas",
+    "country": "@@JDATA:global_city_labels.jdata_global_city_labels_atlanta_name_country@@",
+    "x": 25.19,
+    "y": 43.81
+  },
+  {
+    "name": "@@JDATA:global_city_labels.new_york_name@@",
+    "region": "americas",
+    "country": "@@JDATA:global_city_labels.jdata_global_city_labels_new_york_name_country@@",
+    "x": 28.84,
+    "y": 40.89
+  },
+  {
+    "name": "@@JDATA:global_city_labels.utrecht_name@@",
+    "region": "emea",
+    "country": "@@JDATA:global_city_labels.jdata_global_city_labels_utrecht_name_country@@",
+    "x": 49.1,
+    "y": 33
+  },
+  {
+    "name": "@@JDATA:global_city_labels.montreal_name@@",
+    "region": "americas",
+    "country": "@@JDATA:global_city_labels.jdata_global_city_labels_montreal_name_country@@",
+    "x": 28.84,
+    "y": 31.71
+  },
+  {
+    "name": "@@JDATA:global_city_labels.tokyo_name@@",
+    "region": "apac",
+    "country": "@@JDATA:global_city_labels.jdata_global_city_labels_tokyo_name_country@@",
+    "x": 82.52,
+    "y": 45.11
+  },
+  {
+    "name": "@@JDATA:global_city_labels.seoul_name@@",
+    "region": "apac",
+    "country": "@@JDATA:global_city_labels.jdata_global_city_labels_seoul_name_country@@",
+    "x": 79.26,
+    "y": 43.3
+  },
+  {
+    "name": "@@JDATA:global_city_labels.beijing_name@@",
+    "region": "apac",
+    "country": "@@JDATA:global_city_labels.jdata_global_city_labels_beijing_name_country@@",
+    "x": 76.5,
+    "y": 44.13
+  },
+  {
+    "name": "@@JDATA:global_city_labels.hong_kong_name@@",
+    "region": "apac",
+    "country": "@@JDATA:global_city_labels.jdata_global_city_labels_hong_kong_name_country@@",
+    "x": 76.39,
+    "y": 52.56
+  },
+  {
+    "name": "@@JDATA:global_city_labels.riyadh_name@@",
+    "region": "emea",
+    "country": "@@JDATA:global_city_labels.jdata_global_city_labels_riyadh_name_country@@",
+    "x": 58.27,
+    "y": 49.07
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "name": "DMX fixtures",
+  "label": "DMX fixtures",
+  "short_label": "Turn pixels into light",
+  "description": "Samples content into colours for LED fixtures, then sends those values through Art-Net or sACN.",
+  "use_case": "LED strips and pixel-controlled lighting effects.",
+  "outputs": "DMX / Art-Net / sACN",
+  "result": "Image colours become fixture colours. This example simulates the output."
+}

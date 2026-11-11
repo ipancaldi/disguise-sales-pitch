@@ -1,0 +1,7 @@
+{
+  "name": "DMX",
+  "short_label": "Input + output",
+  "description": "Send and receive DMX control data as part of the production workflow.",
+  "items_1": "DMX input",
+  "items_2": "DMX output"
+}

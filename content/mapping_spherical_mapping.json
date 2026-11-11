@@ -1,0 +1,9 @@
+{
+  "name": "Spherical mapping",
+  "label": "Spherical",
+  "short_label": "Wrap a globe",
+  "description": "Wraps content around a spherical surface, accounting for its curvature in both directions.",
+  "use_case": "A globe or spherical visual installation.",
+  "outputs": "Projection + LED",
+  "result": "Content follows the globe’s curved surface in both directions."
+}

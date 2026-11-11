@@ -1,0 +1,10 @@
+{
+  "product_render": "/media/rx-front.webp",
+  "product_name": "RX range",
+  "role": "Real-time rendering",
+  "headline": "Add dedicated rendering power.",
+  "description": "Render nodes provide dedicated processing for real-time engine content, connected to the playback system through RenderStream.",
+  "benefit_1": "Separate rendering from media-server output",
+  "benefit_2": "Distribute content processing across nodes",
+  "benefit_3": "Support real-time engine workflows at scale"
+}

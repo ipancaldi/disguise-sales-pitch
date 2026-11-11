@@ -1,0 +1,13 @@
+{
+  "case_study_image": "/media/crossroads.jpg",
+  "name": "Crossroads",
+  "industry": "Live venue / broadcast & xR",
+  "image_description": "A speaker in front of an expansive immersive LED environment at Crossroads Church",
+  "challenge": "Create one space that can serve an in-person audience, an xR livestream and content production workflows.",
+  "how_disguise_helps": "Disguise software, GX media servers, RX render nodes and technical services are integrated with the venue’s moving LED environment and partner technologies.",
+  "outcome": "The same stage supports live services, immersive storytelling and broadcast production through a shared visual platform.",
+  "stack_1": "Designer",
+  "stack_2": "GX + RX",
+  "stack_3": "Technical services",
+  "note": "Sources: supplied deck, slide 19; public Disguise Crossroads case study."
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Tracker delay calibration",
+  "short_label": "Camera image ↔ tracking data",
+  "description": "Measures the timing difference between a received camera image and its associated tracking data.",
+  "benefit": "Pair the camera image with tracking data from the same moment."
+}

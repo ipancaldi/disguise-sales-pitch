@@ -1,0 +1,22 @@
+{
+  "headline": "Visualise",
+  "subtitle": "See it before you build it.",
+  "description": "Build a 3D replica of the venue in Designer. Preview content, scenery and screens together, so the team can make creative and technical decisions before arriving on site.",
+  "link_label": "Explore Designer",
+  "headline_2": "Map",
+  "subtitle_2": "Make the content fit the world.",
+  "description_2": "Map pixels to physical LED and projection surfaces, including curves and unusual shapes. Plan projection in Mapping Matter; align real projectors with calibration tools such as OmniCal.",
+  "link_label_2": "Explore Mapping Matter",
+  "headline_3": "Combine",
+  "subtitle_3": "Bring every content source together.",
+  "description_3": "Blend video, generative graphics and real-time engines in one project. RenderStream connects engine content to Designer. Try the content buttons to see the same stage take on a different look.",
+  "link_label_3": "Explore RenderStream",
+  "headline_4": "Connect",
+  "subtitle_4": "Keep the whole show in sync.",
+  "description_4": "Use the Designer timeline, cues, APIs and protocols to synchronise visuals with connected systems. Porta gives operators a templated interface for graphics control in studios, stadiums and venues.",
+  "link_label_4": "Explore Porta",
+  "headline_5": "Deliver",
+  "subtitle_5": "Scale up. Prepare for the unexpected.",
+  "description_5": "Media servers process and output content; render nodes add dedicated real-time processing. Multi-machine sessions and understudy backups support resilient delivery. Try the offline simulation to see the backup concept.",
+  "link_label_5": "Explore the hardware"
+}
